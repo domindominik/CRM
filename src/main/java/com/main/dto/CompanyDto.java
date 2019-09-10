@@ -5,7 +5,7 @@ public class CompanyDto
     private Long id;
     private String name;
     private String type;
-    private String nio;
+    private String nip;
     private String regon;
     private String krs;
     private String region;
@@ -44,12 +44,12 @@ public class CompanyDto
         this.type = type;
     }
 
-    public String getNio() {
-        return nio;
+    public String getNip() {
+        return nip;
     }
 
-    public void setNio(String nio) {
-        this.nio = nio;
+    public void setNip(String nip) {
+        this.nip = nip;
     }
 
     public String getRegon() {
