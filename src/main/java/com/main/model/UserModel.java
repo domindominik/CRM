@@ -5,7 +5,7 @@ import org.hibernate.validator.constraints.UniqueElements;
 import javax.persistence.*;
 
 @Entity
-public class WorkerModel
+public class UserModel
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
