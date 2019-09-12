@@ -13,6 +13,7 @@ public class CompanyMapper
         companyDto.setNip(companyModel.getNip());
         companyDto.setRegon(companyModel.getRegon());
         companyDto.setKrs(companyModel.getKrs());
+        companyDto.setRegion(companyModel.getRegion());
         companyDto.setCity(companyModel.getCity());
         companyDto.setStreet(companyModel.getStreet());
         companyDto.setNumber(companyModel.getNumber());
