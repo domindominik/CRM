@@ -6,7 +6,6 @@ import javax.persistence.*;
 public class CompanyModel
 {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column
     private Long id;
 

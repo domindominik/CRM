@@ -26,7 +26,8 @@ public class UserModel
     private String password;
 
     @Column
-    private int type;
+    @ManyToOne
+    private TypeModel type;
 
     public Long getId() {
         return id;
@@ -68,11 +69,11 @@ public class UserModel
         this.password = password;
     }
 
-    public int getType() {
+    public TypeModel getType() {
         return type;
     }
 
-    public void setType(int type) {
+    public void setType(TypeModel type) {
         this.type = type;
     }
 }

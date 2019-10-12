@@ -12,7 +12,7 @@ public class UserMapper
         userDto.setSurname(userModel.getSurname());
         userDto.setEmail(userModel.getEmail());
         userDto.setPassword(userModel.getPassword());
-        userDto.setType(userModel.getType());
+        userDto.setType(userModel.getType().getId());
         return userDto;
     }
 
